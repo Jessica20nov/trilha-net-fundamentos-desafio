@@ -30,9 +30,6 @@ namespace DesafioFundamentos.Models
             
             string placa = Console.ReadLine();
                         
-            
-            
-
             // Verifica se o veículo existe
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
                 {
@@ -71,9 +68,6 @@ namespace DesafioFundamentos.Models
                 {
                     Console.WriteLine(item);
                 }
-                
-               
-
             }
             else
             {
@@ -82,4 +76,3 @@ namespace DesafioFundamentos.Models
         }
     }
 }
-
